@@ -9,10 +9,10 @@ public class SubSubClass extends SubClass{
 		return c;
 	}
 	public int getB() {
-		return super.getB();
+		return super.getB()*c;
 	}
 	public int getA() {
-		return super.getA();
+		return super.getA()*c;
 	}
 	public String toString() {
 		return super.toString() + " c = " + c;

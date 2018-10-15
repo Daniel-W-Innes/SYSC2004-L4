@@ -8,6 +8,9 @@ public class SubClass extends MyClass{
 	public int getB() {
 		return b;
 	}
+	public int getA() {
+		return super.getA();
+	}
 	public String toString() {
 		return super.toString() + " b = " + b;
 	}
